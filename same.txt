@@ -1,1 +1,1 @@
-vless://80675306-81ad-455d-b78f-e4d54571f7fa@test2.bright-peak.test-cdn-kkk.com:443?mode=gun&security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&fp=qq&type=grpc&serviceName=ads.x5.ru&sni=gazeta-business.ru&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%232
+vless://80675306-81ad-455d-b78f-e4d54571f7fa@test.fine-pond.test-cdn-kkk.com:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50
