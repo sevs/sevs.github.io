@@ -587,7 +587,7 @@
     ]
   }
 },
-          {
+{
   "dns": {
     "queryStrategy": "UseIP",
     "servers": [
