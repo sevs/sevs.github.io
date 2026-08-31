@@ -1,5 +1,5 @@
 [
-{
+          {
           "dns": {
             "queryStrategy": "UseIP",
             "servers": [
@@ -290,7 +290,6 @@
             ]
           }
         },
-
 
 {
   "dns": {
@@ -587,6 +586,7 @@
     ]
   }
 },
+          
 {
   "dns": {
     "queryStrategy": "UseIP",
