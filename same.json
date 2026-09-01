@@ -1,5 +1,4 @@
-[  
-    
+[      
     {
       "dns": {
         "queryStrategy": "UseIP",
