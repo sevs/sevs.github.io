@@ -1,5 +1,4 @@
 [  
-    //profile-title: Same
     {
       "dns": {
         "queryStrategy": "UseIP",
