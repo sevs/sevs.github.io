@@ -49,9 +49,9 @@
   ],
   "burstObservatory": {
     "subjectSelector": [
-      "grp-41-1-7ohnbrc56gs",
-      "grp-41-2-v1ml1kbnvgg",
-      "grp-41-3-ct602gg4hr4"
+      "grp-41-1-jj2jkne9kd",
+      "grp-41-2-fmrq76id06o",
+      "grp-41-3-sq0p83v6vbc"
     ],
     "pingConfig": {
       "destination": "http://ping.eu-fffast.com/generate_204",
@@ -62,7 +62,7 @@
   },
   "outbounds": [
     {
-      "tag": "grp-41-1-7ohnbrc56gs",
+      "tag": "grp-41-1-jj2jkne9kd",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -87,12 +87,12 @@
           "serverName": "keycdn.com",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-41-2-v1ml1kbnvgg",
+      "tag": "grp-41-2-fmrq76id06o",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -121,12 +121,12 @@
           "shortId": "50",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "serverName": "gazeta-business.ru",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-41-3-ct602gg4hr4",
+      "tag": "grp-41-3-sq0p83v6vbc",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -151,7 +151,7 @@
           "serverName": "ads.x5.ru",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -172,10 +172,10 @@
       {
         "tag": "bal_41",
         "selector": [
-          "grp-41-1-7ohnbrc56gs",
-          "grp-41-2-v1ml1kbnvgg"
+          "grp-41-1-jj2jkne9kd",
+          "grp-41-2-fmrq76id06o"
         ],
-        "fallbackTag": "grp-41-3-ct602gg4hr4",
+        "fallbackTag": "grp-41-3-sq0p83v6vbc",
         "strategy": {
           "type": "leastLoad",
           "settings": {
@@ -184,17 +184,17 @@
             ],
             "costs": [
               {
-                "match": "grp-41-1-7ohnbrc56gs",
+                "match": "grp-41-1-jj2jkne9kd",
                 "regexp": false,
                 "value": 1
               },
               {
-                "match": "grp-41-2-v1ml1kbnvgg",
+                "match": "grp-41-2-fmrq76id06o",
                 "regexp": false,
                 "value": 10000000
               },
               {
-                "match": "grp-41-3-ct602gg4hr4",
+                "match": "grp-41-3-sq0p83v6vbc",
                 "regexp": false,
                 "value": 100000000
               }
@@ -292,7 +292,7 @@
   },
   "log": {
     "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788522875599_error_log.txt"
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524060174_error_log.txt"
   }
     },
     {
@@ -345,9 +345,9 @@
   ],
   "burstObservatory": {
     "subjectSelector": [
-      "grp-51-1-iuk1m8e40g4",
-      "grp-51-2-viqcc8gvfng",
-      "grp-51-3-fd3m085n24g"
+      "grp-58-1-1f5lsgcfkt8",
+      "grp-58-2-jpqv752106c",
+      "grp-58-3-5ha42sul9is"
     ],
     "pingConfig": {
       "destination": "http://ping.eu-fffast.com/generate_204",
@@ -358,37 +358,7 @@
   },
   "outbounds": [
     {
-      "tag": "grp-51-1-iuk1m8e40g4",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test.fine-pond.test-cdn-kkk.com",
-            "port": 443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "keycdn.com",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "50",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "grp-51-2-viqcc8gvfng",
+      "tag": "grp-58-1-1f5lsgcfkt8",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -417,282 +387,12 @@
           "shortId": "50",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "serverName": "gazeta-business.ru",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-51-3-fd3m085n24g",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test.bay-glep.test-cdn-kkk.com",
-            "port": 443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "ads.x5.ru",
-          "authority": "",
-          "mode": false
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "gazeta-business.ru",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "50",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom"
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole"
-    }
-  ],
-  "remarks": "🇫🇮 LTE #3",
-  "routing": {
-    "domainMatcher": "hybrid",
-    "domainStrategy": "AsIs",
-    "balancers": [
-      {
-        "tag": "bal_51",
-        "selector": [
-          "grp-51-1-iuk1m8e40g4",
-          "grp-51-2-viqcc8gvfng"
-        ],
-        "fallbackTag": "grp-51-3-fd3m085n24g",
-        "strategy": {
-          "type": "leastLoad",
-          "settings": {
-            "baselines": [
-              "4s"
-            ],
-            "costs": [
-              {
-                "match": "grp-51-1-iuk1m8e40g4",
-                "regexp": false,
-                "value": 1
-              },
-              {
-                "match": "grp-51-2-viqcc8gvfng",
-                "regexp": false,
-                "value": 10000000
-              },
-              {
-                "match": "grp-51-3-fd3m085n24g",
-                "regexp": false,
-                "value": 100000000
-              }
-            ],
-            "expected": 1,
-            "maxRTT": "6s"
-          }
-        }
-      }
-    ],
-    "rules": [
-      {
-        "type": "field",
-        "protocol": [
-          "bittorrent"
-        ],
-        "outboundTag": "block"
-      },
-      {
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:oneme.ru",
-          "domain:max.ru",
-          "domain:sferum-dev.ru",
-          "domain:okcdn.ru",
-          "domain:vk-apps.ru",
-          "domain:vk.ru",
-          "domain:vk.com",
-          "domain:vk.cc",
-          "domain:vk.link",
-          "domain:vkontakte.ru",
-          "domain:vkontakte.com",
-          "domain:vk-cdn.net",
-          "domain:userapi.com",
-          "domain:vkuser.net",
-          "domain:vkuseraudio.com",
-          "domain:vkuseraudio.net",
-          "domain:vkuservideo.com",
-          "domain:vkuservideo.net",
-          "domain:vkuserlive.com",
-          "domain:vkuserlive.net",
-          "domain:vkpay.io",
-          "domain:vkpay.com",
-          "domain:vkpay.app",
-          "domain:vkcs.cloud",
-          "domain:ok.ru",
-          "domain:odkl.ru",
-          "domain:tamtam.chat",
-          "domain:mycdn.me",
-          "domain:ok.me",
-          "domain:apiok.ru",
-          "domain:apptracer.ru",
-          "domain:vkvideo.ru",
-          "domain:vk.company",
-          "domain:mail.ru",
-          "domain:tech-mail.ru",
-          "domain:vmailru.net",
-          "domain:smailru.net",
-          "domain:appsmail.ru",
-          "domain:cxhub.ru",
-          "domain:dzen.ru",
-          "domain:dzeninfra.ru",
-          "domain:vkplay.ru",
-          "domain:my.games",
-          "domain:algoritmika.org",
-          "domain:yaklass.ru",
-          "domain:umschool.net",
-          "domain:code-class.ru",
-          "domain:summerstage.ru",
-          "domain:vk-stadium.ru",
-          "domain:tetrika-school.ru",
-          "domain:yandex.ru",
-          "domain:yandex.net",
-          "domain:yandex.com",
-          "domain:ya.ru",
-          "domain:gosuslugi.ru",
-          "domain:wildberries.ru",
-          "domain:ozon.ru",
-          "domain:ozon.com",
-          "domain:ozone.ru",
-          "full:go.yandex"
-        ]
-      },
-      {
-        "type": "field",
-        "inboundTag": [
-          "socks",
-          "http"
-        ],
-        "network": "tcp,udp",
-        "balancerTag": "bal_51"
-      }
-    ]
-  },
-  "log": {
-    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788522965544_error_log.txt"
-  }
-    },
-    {
-  "dns": {
-    "queryStrategy": "UseIP",
-    "servers": [
-      "1.1.1.1",
-      "1.0.0.1"
-    ]
-  },
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "settings": {
-        "udp": true,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "settings": {
-        "allowTransparent": false,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    }
-  ],
-  "burstObservatory": {
-    "subjectSelector": [
-      "grp-58-1-dmjv8b1g508",
-      "grp-58-2-coa1hod1rh8",
-      "grp-58-3-lrqp6ikcui4"
-    ],
-    "pingConfig": {
-      "destination": "http://ping.eu-fffast.com/generate_204",
-      "interval": "1m",
-      "sampling": 3,
-      "timeout": "5s"
-    }
-  },
-  "outbounds": [
-    {
-      "tag": "grp-58-1-dmjv8b1g508",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "port": 443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "flow": "",
-                "encryption": "none"
-              }
-            ],
-            "address": "91.240.87.221"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "grpcSettings": {
-          "mode": false,
-          "authority": "",
-          "serviceName": "ads.x5.ru"
-        },
-        "realitySettings": {
-          "shortId": "50",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "serverName": "gazeta-business.ru",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "grp-58-2-coa1hod1rh8",
+      "tag": "grp-58-2-jpqv752106c",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -721,12 +421,12 @@
           "serverName": "www.google.com",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-58-3-lrqp6ikcui4",
+      "tag": "grp-58-3-5ha42sul9is",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -751,7 +451,7 @@
           "serverName": "keycdn.com",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -772,10 +472,10 @@
       {
         "tag": "bal_58",
         "selector": [
-          "grp-58-1-dmjv8b1g508",
-          "grp-58-2-coa1hod1rh8"
+          "grp-58-1-1f5lsgcfkt8",
+          "grp-58-2-jpqv752106c"
         ],
-        "fallbackTag": "grp-58-3-lrqp6ikcui4",
+        "fallbackTag": "grp-58-3-5ha42sul9is",
         "strategy": {
           "type": "leastLoad",
           "settings": {
@@ -784,17 +484,17 @@
             ],
             "costs": [
               {
-                "match": "grp-58-1-dmjv8b1g508",
+                "match": "grp-58-1-1f5lsgcfkt8",
                 "regexp": false,
                 "value": 10000000
               },
               {
-                "match": "grp-58-2-coa1hod1rh8",
+                "match": "grp-58-2-jpqv752106c",
                 "regexp": false,
                 "value": 20000000
               },
               {
-                "match": "grp-58-3-lrqp6ikcui4",
+                "match": "grp-58-3-5ha42sul9is",
                 "regexp": false,
                 "value": 30000000
               }
@@ -892,7 +592,7 @@
   },
   "log": {
     "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788522984596_error_log.txt"
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524074337_error_log.txt"
   }
     },
     {
@@ -945,9 +645,9 @@
   ],
   "burstObservatory": {
     "subjectSelector": [
-      "grp-43-1-f57e3j6vvuk",
-      "grp-43-2-ll7uupkq07k",
-      "grp-43-3-ors8c9fjol4"
+      "grp-51-1-4k82sh5u494",
+      "grp-51-2-m08cadt4plg",
+      "grp-51-3-183jifgf67"
     ],
     "pingConfig": {
       "destination": "http://ping.eu-fffast.com/generate_204",
@@ -958,7 +658,7 @@
   },
   "outbounds": [
     {
-      "tag": "grp-43-1-f57e3j6vvuk",
+      "tag": "grp-51-1-4k82sh5u494",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -983,12 +683,12 @@
           "serverName": "keycdn.com",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-43-2-ll7uupkq07k",
+      "tag": "grp-51-2-m08cadt4plg",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1014,21 +714,21 @@
           "serviceName": "ads.x5.ru"
         },
         "realitySettings": {
-          "shortId": "8126804b",
+          "shortId": "50",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "serverName": "gazeta-business.ru",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-43-3-ors8c9fjol4",
+      "tag": "grp-51-3-183jifgf67",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "test.fine-vault.test-cdn-kkk.com",
-            "port": 50443,
+            "address": "test.bay-glep.test-cdn-kkk.com",
+            "port": 443,
             "users": [
               {
                 "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
@@ -1048,10 +748,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "ads.x5.ru",
+          "serverName": "gazeta-business.ru",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "8126804b",
-          "fingerprint": "qq"
+          "shortId": "50",
+          "fingerprint": "firefox"
         }
       }
     },
@@ -1064,18 +764,18 @@
       "protocol": "blackhole"
     }
   ],
-  "remarks": "Германия 🇩🇪",
+  "remarks": "🇫🇮 LTE #3",
   "routing": {
     "domainMatcher": "hybrid",
     "domainStrategy": "AsIs",
     "balancers": [
       {
-        "tag": "bal_43",
+        "tag": "bal_51",
         "selector": [
-          "grp-43-1-f57e3j6vvuk",
-          "grp-43-2-ll7uupkq07k"
+          "grp-51-1-4k82sh5u494",
+          "grp-51-2-m08cadt4plg"
         ],
-        "fallbackTag": "grp-43-3-ors8c9fjol4",
+        "fallbackTag": "grp-51-3-183jifgf67",
         "strategy": {
           "type": "leastLoad",
           "settings": {
@@ -1084,19 +784,19 @@
             ],
             "costs": [
               {
-                "match": "grp-43-1-f57e3j6vvuk",
+                "match": "grp-51-1-4k82sh5u494",
                 "regexp": false,
                 "value": 1
               },
               {
-                "match": "grp-43-2-ll7uupkq07k",
+                "match": "grp-51-2-m08cadt4plg",
                 "regexp": false,
                 "value": 10000000
               },
               {
-                "match": "grp-43-3-ors8c9fjol4",
+                "match": "grp-51-3-183jifgf67",
                 "regexp": false,
-                "value": 20000000
+                "value": 100000000
               }
             ],
             "expected": 1,
@@ -1186,13 +886,13 @@
           "http"
         ],
         "network": "tcp,udp",
-        "balancerTag": "bal_43"
+        "balancerTag": "bal_51"
       }
     ]
   },
   "log": {
     "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788522994952_error_log.txt"
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524089112_error_log.txt"
   }
     },
     {
@@ -1245,9 +945,10 @@
   ],
   "burstObservatory": {
     "subjectSelector": [
-      "grp-28-1-ksuh0kjs55k",
-      "grp-28-2-6c0pkk6dbro",
-      "grp-28-3-rjmop4d2j4"
+      "grp-26-1-ggth8k4t3lo",
+      "grp-26-2-7nc8i35v04s",
+      "grp-26-3-nmffc27qdt8",
+      "grp-26-4-v7059socqvo"
     ],
     "pingConfig": {
       "destination": "http://ping.eu-fffast.com/generate_204",
@@ -1258,908 +959,7 @@
   },
   "outbounds": [
     {
-      "tag": "grp-28-1-ksuh0kjs55k",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test.fine-pond.test-cdn-kkk.com",
-            "port": 443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "keycdn.com",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "50",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "grp-28-2-6c0pkk6dbro",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "port": 443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "flow": "",
-                "encryption": "none"
-              }
-            ],
-            "address": "91.240.87.221"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "grpcSettings": {
-          "mode": false,
-          "authority": "",
-          "serviceName": "ads.x5.ru"
-        },
-        "realitySettings": {
-          "shortId": "50",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "serverName": "gazeta-business.ru",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "grp-28-3-rjmop4d2j4",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test.fine-vault.test-cdn-kkk.com",
-            "port": 50443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "ads.x5.ru",
-          "authority": "",
-          "mode": false
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ads.x5.ru",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "50",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom"
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole"
-    }
-  ],
-  "remarks": "🇫🇮 LTE АВТО",
-  "routing": {
-    "domainMatcher": "hybrid",
-    "domainStrategy": "AsIs",
-    "balancers": [
-      {
-        "tag": "bal_28",
-        "selector": [
-          "grp-28-1-ksuh0kjs55k",
-          "grp-28-2-6c0pkk6dbro"
-        ],
-        "fallbackTag": "grp-28-3-rjmop4d2j4",
-        "strategy": {
-          "type": "leastLoad",
-          "settings": {
-            "baselines": [
-              "4s"
-            ],
-            "costs": [
-              {
-                "match": "grp-28-1-ksuh0kjs55k",
-                "regexp": false,
-                "value": 1
-              },
-              {
-                "match": "grp-28-2-6c0pkk6dbro",
-                "regexp": false,
-                "value": 10000000
-              },
-              {
-                "match": "grp-28-3-rjmop4d2j4",
-                "regexp": false,
-                "value": 300000000
-              }
-            ],
-            "expected": 1,
-            "maxRTT": "6s"
-          }
-        }
-      }
-    ],
-    "rules": [
-      {
-        "type": "field",
-        "protocol": [
-          "bittorrent"
-        ],
-        "outboundTag": "block"
-      },
-      {
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:oneme.ru",
-          "domain:max.ru",
-          "domain:sferum-dev.ru",
-          "domain:okcdn.ru",
-          "domain:vk-apps.ru",
-          "domain:vk.ru",
-          "domain:vk.com",
-          "domain:vk.cc",
-          "domain:vk.link",
-          "domain:vkontakte.ru",
-          "domain:vkontakte.com",
-          "domain:vk-cdn.net",
-          "domain:userapi.com",
-          "domain:vkuser.net",
-          "domain:vkuseraudio.com",
-          "domain:vkuseraudio.net",
-          "domain:vkuservideo.com",
-          "domain:vkuservideo.net",
-          "domain:vkuserlive.com",
-          "domain:vkuserlive.net",
-          "domain:vkpay.io",
-          "domain:vkpay.com",
-          "domain:vkpay.app",
-          "domain:vkcs.cloud",
-          "domain:ok.ru",
-          "domain:odkl.ru",
-          "domain:tamtam.chat",
-          "domain:mycdn.me",
-          "domain:ok.me",
-          "domain:apiok.ru",
-          "domain:apptracer.ru",
-          "domain:vkvideo.ru",
-          "domain:vk.company",
-          "domain:mail.ru",
-          "domain:tech-mail.ru",
-          "domain:vmailru.net",
-          "domain:smailru.net",
-          "domain:appsmail.ru",
-          "domain:cxhub.ru",
-          "domain:dzen.ru",
-          "domain:dzeninfra.ru",
-          "domain:vkplay.ru",
-          "domain:my.games",
-          "domain:algoritmika.org",
-          "domain:yaklass.ru",
-          "domain:umschool.net",
-          "domain:code-class.ru",
-          "domain:summerstage.ru",
-          "domain:vk-stadium.ru",
-          "domain:tetrika-school.ru",
-          "domain:yandex.ru",
-          "domain:yandex.net",
-          "domain:yandex.com",
-          "domain:ya.ru",
-          "domain:gosuslugi.ru",
-          "domain:wildberries.ru",
-          "domain:ozon.ru",
-          "domain:ozon.com",
-          "domain:ozone.ru",
-          "full:go.yandex"
-        ]
-      },
-      {
-        "type": "field",
-        "inboundTag": [
-          "socks",
-          "http"
-        ],
-        "network": "tcp,udp",
-        "balancerTag": "bal_28"
-      }
-    ]
-  },
-  "log": {
-    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788523005412_error_log.txt"
-  }
-    },
-    {
-  "dns": {
-    "queryStrategy": "UseIP",
-    "servers": [
-      "1.1.1.1",
-      "1.0.0.1"
-    ]
-  },
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "settings": {
-        "udp": true,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "settings": {
-        "allowTransparent": false,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    }
-  ],
-  "burstObservatory": {
-    "subjectSelector": [
-      "grp-46-1-ndqb3hkovnc",
-      "grp-46-2-t315iu2mll4",
-      "grp-46-3-mn33bc99i7"
-    ],
-    "pingConfig": {
-      "destination": "http://ping.eu-fffast.com/generate_204",
-      "interval": "1m",
-      "sampling": 3,
-      "timeout": "5s"
-    }
-  },
-  "outbounds": [
-    {
-      "tag": "grp-46-1-ndqb3hkovnc",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test.fine-maple.test-cdn-kkk.com",
-            "port": 443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "keycdn.com",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "50",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "grp-46-2-t315iu2mll4",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "port": 443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "flow": "",
-                "encryption": "none"
-              }
-            ],
-            "address": "91.240.87.221"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "grpcSettings": {
-          "mode": false,
-          "authority": "",
-          "serviceName": "ads.x5.ru"
-        },
-        "realitySettings": {
-          "shortId": "32be2c0a",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "serverName": "gazeta-business.ru",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "grp-46-3-mn33bc99i7",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test.fine-vault.test-cdn-kkk.com",
-            "port": 50443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "ads.x5.ru",
-          "authority": "",
-          "mode": false
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ads.x5.ru",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "32be2c0a",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom"
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole"
-    }
-  ],
-  "remarks": "🇪🇪 Эстония",
-  "routing": {
-    "domainMatcher": "hybrid",
-    "domainStrategy": "AsIs",
-    "balancers": [
-      {
-        "tag": "bal_46",
-        "selector": [
-          "grp-46-1-ndqb3hkovnc",
-          "grp-46-2-t315iu2mll4"
-        ],
-        "fallbackTag": "grp-46-3-mn33bc99i7",
-        "strategy": {
-          "type": "leastLoad",
-          "settings": {
-            "baselines": [
-              "4s"
-            ],
-            "costs": [
-              {
-                "match": "grp-46-1-ndqb3hkovnc",
-                "regexp": false,
-                "value": 1
-              },
-              {
-                "match": "grp-46-2-t315iu2mll4",
-                "regexp": false,
-                "value": 10000000
-              },
-              {
-                "match": "grp-46-3-mn33bc99i7",
-                "regexp": false,
-                "value": 20000000
-              }
-            ],
-            "expected": 1,
-            "maxRTT": "6s"
-          }
-        }
-      }
-    ],
-    "rules": [
-      {
-        "type": "field",
-        "protocol": [
-          "bittorrent"
-        ],
-        "outboundTag": "block"
-      },
-      {
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:oneme.ru",
-          "domain:max.ru",
-          "domain:sferum-dev.ru",
-          "domain:okcdn.ru",
-          "domain:vk-apps.ru",
-          "domain:vk.ru",
-          "domain:vk.com",
-          "domain:vk.cc",
-          "domain:vk.link",
-          "domain:vkontakte.ru",
-          "domain:vkontakte.com",
-          "domain:vk-cdn.net",
-          "domain:userapi.com",
-          "domain:vkuser.net",
-          "domain:vkuseraudio.com",
-          "domain:vkuseraudio.net",
-          "domain:vkuservideo.com",
-          "domain:vkuservideo.net",
-          "domain:vkuserlive.com",
-          "domain:vkuserlive.net",
-          "domain:vkpay.io",
-          "domain:vkpay.com",
-          "domain:vkpay.app",
-          "domain:vkcs.cloud",
-          "domain:ok.ru",
-          "domain:odkl.ru",
-          "domain:tamtam.chat",
-          "domain:mycdn.me",
-          "domain:ok.me",
-          "domain:apiok.ru",
-          "domain:apptracer.ru",
-          "domain:vkvideo.ru",
-          "domain:vk.company",
-          "domain:mail.ru",
-          "domain:tech-mail.ru",
-          "domain:vmailru.net",
-          "domain:smailru.net",
-          "domain:appsmail.ru",
-          "domain:cxhub.ru",
-          "domain:dzen.ru",
-          "domain:dzeninfra.ru",
-          "domain:vkplay.ru",
-          "domain:my.games",
-          "domain:algoritmika.org",
-          "domain:yaklass.ru",
-          "domain:umschool.net",
-          "domain:code-class.ru",
-          "domain:summerstage.ru",
-          "domain:vk-stadium.ru",
-          "domain:tetrika-school.ru",
-          "domain:yandex.ru",
-          "domain:yandex.net",
-          "domain:yandex.com",
-          "domain:ya.ru",
-          "domain:gosuslugi.ru",
-          "domain:wildberries.ru",
-          "domain:ozon.ru",
-          "domain:ozon.com",
-          "domain:ozone.ru",
-          "full:go.yandex"
-        ]
-      },
-      {
-        "type": "field",
-        "inboundTag": [
-          "socks",
-          "http"
-        ],
-        "network": "tcp,udp",
-        "balancerTag": "bal_46"
-      }
-    ]
-  },
-  "log": {
-    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788523015625_error_log.txt"
-  }
-    },
-    {
-  "dns": {
-    "queryStrategy": "UseIP",
-    "servers": [
-      "1.1.1.1",
-      "1.0.0.1"
-    ]
-  },
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "settings": {
-        "udp": true,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "settings": {
-        "allowTransparent": false,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    }
-  ],
-  "burstObservatory": {
-    "subjectSelector": [
-      "grp-50-1-gfsasvmq8dk",
-      "grp-50-2-flcgv5pjojs",
-      "grp-50-3-f89ha2b5itc"
-    ],
-    "pingConfig": {
-      "destination": "http://ping.eu-fffast.com/generate_204",
-      "interval": "1m",
-      "sampling": 3,
-      "timeout": "5s"
-    }
-  },
-  "outbounds": [
-    {
-      "tag": "grp-50-1-gfsasvmq8dk",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test.gold-pond.test-cdn-kkk.com",
-            "port": 443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "tradingview.com",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "50",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "grp-50-2-flcgv5pjojs",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "port": 443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "flow": "",
-                "encryption": "none"
-              }
-            ],
-            "address": "91.240.87.221"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "grpcSettings": {
-          "mode": false,
-          "authority": "",
-          "serviceName": "ads.x5.ru"
-        },
-        "realitySettings": {
-          "shortId": "c5023bb2",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "serverName": "gazeta-business.ru",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "grp-50-3-f89ha2b5itc",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test.fine-vault.test-cdn-kkk.com",
-            "port": 50443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "ads.x5.ru",
-          "authority": "",
-          "mode": false
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ads.x5.ru",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "c5023bb2",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom"
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole"
-    }
-  ],
-  "remarks": "Франция 🇫🇷",
-  "routing": {
-    "domainMatcher": "hybrid",
-    "domainStrategy": "AsIs",
-    "balancers": [
-      {
-        "tag": "bal_50",
-        "selector": [
-          "grp-50-1-gfsasvmq8dk",
-          "grp-50-2-flcgv5pjojs"
-        ],
-        "fallbackTag": "grp-50-3-f89ha2b5itc",
-        "strategy": {
-          "type": "leastLoad",
-          "settings": {
-            "baselines": [
-              "4s"
-            ],
-            "costs": [
-              {
-                "match": "grp-50-1-gfsasvmq8dk",
-                "regexp": false,
-                "value": 1
-              },
-              {
-                "match": "grp-50-2-flcgv5pjojs",
-                "regexp": false,
-                "value": 10000000
-              },
-              {
-                "match": "grp-50-3-f89ha2b5itc",
-                "regexp": false,
-                "value": 20000000
-              }
-            ],
-            "expected": 1,
-            "maxRTT": "6s"
-          }
-        }
-      }
-    ],
-    "rules": [
-      {
-        "type": "field",
-        "protocol": [
-          "bittorrent"
-        ],
-        "outboundTag": "block"
-      },
-      {
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:oneme.ru",
-          "domain:max.ru",
-          "domain:sferum-dev.ru",
-          "domain:okcdn.ru",
-          "domain:vk-apps.ru",
-          "domain:vk.ru",
-          "domain:vk.com",
-          "domain:vk.cc",
-          "domain:vk.link",
-          "domain:vkontakte.ru",
-          "domain:vkontakte.com",
-          "domain:vk-cdn.net",
-          "domain:userapi.com",
-          "domain:vkuser.net",
-          "domain:vkuseraudio.com",
-          "domain:vkuseraudio.net",
-          "domain:vkuservideo.com",
-          "domain:vkuservideo.net",
-          "domain:vkuserlive.com",
-          "domain:vkuserlive.net",
-          "domain:vkpay.io",
-          "domain:vkpay.com",
-          "domain:vkpay.app",
-          "domain:vkcs.cloud",
-          "domain:ok.ru",
-          "domain:odkl.ru",
-          "domain:tamtam.chat",
-          "domain:mycdn.me",
-          "domain:ok.me",
-          "domain:apiok.ru",
-          "domain:apptracer.ru",
-          "domain:vkvideo.ru",
-          "domain:vk.company",
-          "domain:mail.ru",
-          "domain:tech-mail.ru",
-          "domain:vmailru.net",
-          "domain:smailru.net",
-          "domain:appsmail.ru",
-          "domain:cxhub.ru",
-          "domain:dzen.ru",
-          "domain:dzeninfra.ru",
-          "domain:vkplay.ru",
-          "domain:my.games",
-          "domain:algoritmika.org",
-          "domain:yaklass.ru",
-          "domain:umschool.net",
-          "domain:code-class.ru",
-          "domain:summerstage.ru",
-          "domain:vk-stadium.ru",
-          "domain:tetrika-school.ru",
-          "domain:yandex.ru",
-          "domain:yandex.net",
-          "domain:yandex.com",
-          "domain:ya.ru",
-          "domain:gosuslugi.ru",
-          "domain:wildberries.ru",
-          "domain:ozon.ru",
-          "domain:ozon.com",
-          "domain:ozone.ru",
-          "full:go.yandex"
-        ]
-      },
-      {
-        "type": "field",
-        "inboundTag": [
-          "socks",
-          "http"
-        ],
-        "network": "tcp,udp",
-        "balancerTag": "bal_50"
-      }
-    ]
-  },
-  "log": {
-    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788523042241_error_log.txt"
-  }
-    },
-    {
-  "dns": {
-    "queryStrategy": "UseIP",
-    "servers": [
-      "1.1.1.1",
-      "1.0.0.1"
-    ]
-  },
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "settings": {
-        "udp": true,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "settings": {
-        "allowTransparent": false,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    }
-  ],
-  "burstObservatory": {
-    "subjectSelector": [
-      "grp-26-1-b6ljbn41tps",
-      "grp-26-2-vo13c9dtji4",
-      "grp-26-3-69cmmav0epo",
-      "grp-26-4-nhd2ho024uc"
-    ],
-    "pingConfig": {
-      "destination": "http://ping.eu-fffast.com/generate_204",
-      "interval": "1m",
-      "sampling": 3,
-      "timeout": "5s"
-    }
-  },
-  "outbounds": [
-    {
-      "tag": "grp-26-1-b6ljbn41tps",
+      "tag": "grp-26-1-ggth8k4t3lo",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2184,12 +984,12 @@
           "serverName": "tradingview.com",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-26-2-vo13c9dtji4",
+      "tag": "grp-26-2-7nc8i35v04s",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2214,12 +1014,12 @@
           "serverName": "keycdn.com",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-26-3-69cmmav0epo",
+      "tag": "grp-26-3-nmffc27qdt8",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2248,12 +1048,12 @@
           "shortId": "50",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "serverName": "gazeta-business.ru",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-26-4-nhd2ho024uc",
+      "tag": "grp-26-4-v7059socqvo",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2282,7 +1082,7 @@
           "serverName": "ads.x5.ru",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -2303,11 +1103,11 @@
       {
         "tag": "bal_26",
         "selector": [
-          "grp-26-1-b6ljbn41tps",
-          "grp-26-2-vo13c9dtji4",
-          "grp-26-3-69cmmav0epo"
+          "grp-26-1-ggth8k4t3lo",
+          "grp-26-2-7nc8i35v04s",
+          "grp-26-3-nmffc27qdt8"
         ],
-        "fallbackTag": "grp-26-4-nhd2ho024uc",
+        "fallbackTag": "grp-26-4-v7059socqvo",
         "strategy": {
           "type": "leastLoad",
           "settings": {
@@ -2316,22 +1116,22 @@
             ],
             "costs": [
               {
-                "match": "grp-26-1-b6ljbn41tps",
+                "match": "grp-26-1-ggth8k4t3lo",
                 "regexp": false,
                 "value": 1
               },
               {
-                "match": "grp-26-2-vo13c9dtji4",
+                "match": "grp-26-2-7nc8i35v04s",
                 "regexp": false,
                 "value": 1000000
               },
               {
-                "match": "grp-26-3-69cmmav0epo",
+                "match": "grp-26-3-nmffc27qdt8",
                 "regexp": false,
                 "value": 10000000
               },
               {
-                "match": "grp-26-4-nhd2ho024uc",
+                "match": "grp-26-4-v7059socqvo",
                 "regexp": false,
                 "value": 20000000
               }
@@ -2429,7 +1229,7 @@
   },
   "log": {
     "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788523053651_error_log.txt"
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524111064_error_log.txt"
   }
     },
     {
@@ -2482,9 +1282,9 @@
   ],
   "burstObservatory": {
     "subjectSelector": [
-      "grp-44-1-bfts8o4p668",
-      "grp-44-2-oqarldpddj4",
-      "grp-44-3-d7afrqbljdo"
+      "grp-43-1-vh3fhjn10no",
+      "grp-43-2-4vuqcujlhv4",
+      "grp-43-3-jkmll39cqfc"
     ],
     "pingConfig": {
       "destination": "http://ping.eu-fffast.com/generate_204",
@@ -2495,12 +1295,12 @@
   },
   "outbounds": [
     {
-      "tag": "grp-44-1-bfts8o4p668",
+      "tag": "grp-43-1-vh3fhjn10no",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "test.dawn-eagle.test-cdn-kkk.com",
+            "address": "test.fine-pond.test-cdn-kkk.com",
             "port": 443,
             "users": [
               {
@@ -2520,12 +1320,12 @@
           "serverName": "keycdn.com",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-44-2-oqarldpddj4",
+      "tag": "grp-43-2-4vuqcujlhv4",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2551,15 +1351,15 @@
           "serviceName": "ads.x5.ru"
         },
         "realitySettings": {
-          "shortId": "5ebf2a4d",
+          "shortId": "8126804b",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "serverName": "gazeta-business.ru",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-44-3-d7afrqbljdo",
+      "tag": "grp-43-3-jkmll39cqfc",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2587,8 +1387,8 @@
         "realitySettings": {
           "serverName": "ads.x5.ru",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "5ebf2a4d",
-          "fingerprint": "qq"
+          "shortId": "8126804b",
+          "fingerprint": "firefox"
         }
       }
     },
@@ -2601,18 +1401,18 @@
       "protocol": "blackhole"
     }
   ],
-  "remarks": "Швеция 🇸🇪",
+  "remarks": "Германия 🇩🇪",
   "routing": {
     "domainMatcher": "hybrid",
     "domainStrategy": "AsIs",
     "balancers": [
       {
-        "tag": "bal_44",
+        "tag": "bal_43",
         "selector": [
-          "grp-44-1-bfts8o4p668",
-          "grp-44-2-oqarldpddj4"
+          "grp-43-1-vh3fhjn10no",
+          "grp-43-2-4vuqcujlhv4"
         ],
-        "fallbackTag": "grp-44-3-d7afrqbljdo",
+        "fallbackTag": "grp-43-3-jkmll39cqfc",
         "strategy": {
           "type": "leastLoad",
           "settings": {
@@ -2621,17 +1421,17 @@
             ],
             "costs": [
               {
-                "match": "grp-44-1-bfts8o4p668",
+                "match": "grp-43-1-vh3fhjn10no",
                 "regexp": false,
                 "value": 1
               },
               {
-                "match": "grp-44-2-oqarldpddj4",
+                "match": "grp-43-2-4vuqcujlhv4",
                 "regexp": false,
                 "value": 10000000
               },
               {
-                "match": "grp-44-3-d7afrqbljdo",
+                "match": "grp-43-3-jkmll39cqfc",
                 "regexp": false,
                 "value": 20000000
               }
@@ -2723,13 +1523,13 @@
           "http"
         ],
         "network": "tcp,udp",
-        "balancerTag": "bal_44"
+        "balancerTag": "bal_43"
       }
     ]
   },
   "log": {
     "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788523064078_error_log.txt"
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524124227_error_log.txt"
   }
     },
     {
@@ -2782,9 +1582,9 @@
   ],
   "burstObservatory": {
     "subjectSelector": [
-      "grp-45-1-f690rbd67a8",
-      "grp-45-2-muineju73pk",
-      "grp-45-3-tuep8gql2ck"
+      "grp-28-1-1pkqp53eb3s",
+      "grp-28-2-4ccdrab2ngo",
+      "grp-28-3-lm0eq0f32kc"
     ],
     "pingConfig": {
       "destination": "http://ping.eu-fffast.com/generate_204",
@@ -2795,12 +1595,12 @@
   },
   "outbounds": [
     {
-      "tag": "grp-45-1-f690rbd67a8",
+      "tag": "grp-28-1-1pkqp53eb3s",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "test.elm-forge.test-cdn-kkk.com",
+            "address": "test.fine-pond.test-cdn-kkk.com",
             "port": 443,
             "users": [
               {
@@ -2820,12 +1620,12 @@
           "serverName": "keycdn.com",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-45-2-muineju73pk",
+      "tag": "grp-28-2-4ccdrab2ngo",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2851,15 +1651,15 @@
           "serviceName": "ads.x5.ru"
         },
         "realitySettings": {
-          "shortId": "cac0547f",
+          "shortId": "50",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "serverName": "gazeta-business.ru",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "grp-45-3-tuep8gql2ck",
+      "tag": "grp-28-3-lm0eq0f32kc",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2886,309 +1686,9 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "ads.x5.ru",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "cac0547f",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom"
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole"
-    }
-  ],
-  "remarks": "Финляндия 🇫🇮",
-  "routing": {
-    "domainMatcher": "hybrid",
-    "domainStrategy": "AsIs",
-    "balancers": [
-      {
-        "tag": "bal_45",
-        "selector": [
-          "grp-45-1-f690rbd67a8",
-          "grp-45-2-muineju73pk"
-        ],
-        "fallbackTag": "grp-45-3-tuep8gql2ck",
-        "strategy": {
-          "type": "leastLoad",
-          "settings": {
-            "baselines": [
-              "4s"
-            ],
-            "costs": [
-              {
-                "match": "grp-45-1-f690rbd67a8",
-                "regexp": false,
-                "value": 1
-              },
-              {
-                "match": "grp-45-2-muineju73pk",
-                "regexp": false,
-                "value": 10000000
-              },
-              {
-                "match": "grp-45-3-tuep8gql2ck",
-                "regexp": false,
-                "value": 20000000
-              }
-            ],
-            "expected": 1,
-            "maxRTT": "6s"
-          }
-        }
-      }
-    ],
-    "rules": [
-      {
-        "type": "field",
-        "protocol": [
-          "bittorrent"
-        ],
-        "outboundTag": "block"
-      },
-      {
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:oneme.ru",
-          "domain:max.ru",
-          "domain:sferum-dev.ru",
-          "domain:okcdn.ru",
-          "domain:vk-apps.ru",
-          "domain:vk.ru",
-          "domain:vk.com",
-          "domain:vk.cc",
-          "domain:vk.link",
-          "domain:vkontakte.ru",
-          "domain:vkontakte.com",
-          "domain:vk-cdn.net",
-          "domain:userapi.com",
-          "domain:vkuser.net",
-          "domain:vkuseraudio.com",
-          "domain:vkuseraudio.net",
-          "domain:vkuservideo.com",
-          "domain:vkuservideo.net",
-          "domain:vkuserlive.com",
-          "domain:vkuserlive.net",
-          "domain:vkpay.io",
-          "domain:vkpay.com",
-          "domain:vkpay.app",
-          "domain:vkcs.cloud",
-          "domain:ok.ru",
-          "domain:odkl.ru",
-          "domain:tamtam.chat",
-          "domain:mycdn.me",
-          "domain:ok.me",
-          "domain:apiok.ru",
-          "domain:apptracer.ru",
-          "domain:vkvideo.ru",
-          "domain:vk.company",
-          "domain:mail.ru",
-          "domain:tech-mail.ru",
-          "domain:vmailru.net",
-          "domain:smailru.net",
-          "domain:appsmail.ru",
-          "domain:cxhub.ru",
-          "domain:dzen.ru",
-          "domain:dzeninfra.ru",
-          "domain:vkplay.ru",
-          "domain:my.games",
-          "domain:algoritmika.org",
-          "domain:yaklass.ru",
-          "domain:umschool.net",
-          "domain:code-class.ru",
-          "domain:summerstage.ru",
-          "domain:vk-stadium.ru",
-          "domain:tetrika-school.ru",
-          "domain:yandex.ru",
-          "domain:yandex.net",
-          "domain:yandex.com",
-          "domain:ya.ru",
-          "domain:gosuslugi.ru",
-          "domain:wildberries.ru",
-          "domain:ozon.ru",
-          "domain:ozon.com",
-          "domain:ozone.ru",
-          "full:go.yandex"
-        ]
-      },
-      {
-        "type": "field",
-        "inboundTag": [
-          "socks",
-          "http"
-        ],
-        "network": "tcp,udp",
-        "balancerTag": "bal_45"
-      }
-    ]
-  },
-  "log": {
-    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788523072913_error_log.txt"
-  }
-    },
-    {
-  "dns": {
-    "queryStrategy": "UseIP",
-    "servers": [
-      "1.1.1.1",
-      "1.0.0.1"
-    ]
-  },
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "settings": {
-        "udp": true,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "settings": {
-        "allowTransparent": false,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    }
-  ],
-  "burstObservatory": {
-    "subjectSelector": [
-      "grp-52-1-uotgdoshoo4",
-      "grp-52-2-3o43m9n86r4",
-      "grp-52-3-tgqk020c2eg"
-    ],
-    "pingConfig": {
-      "destination": "http://ping.eu-fffast.com/generate_204",
-      "interval": "1m",
-      "sampling": 3,
-      "timeout": "5s"
-    }
-  },
-  "outbounds": [
-    {
-      "tag": "grp-52-1-uotgdoshoo4",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test.bold-stone.test-cdn-kkk.com",
-            "port": 443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "tradingview.com",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "grp-52-2-3o43m9n86r4",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "port": 443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "flow": "",
-                "encryption": "none"
-              }
-            ],
-            "address": "91.240.87.221"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "grpcSettings": {
-          "mode": false,
-          "authority": "",
-          "serviceName": "ads.x5.ru"
-        },
-        "realitySettings": {
-          "shortId": "15aacc12",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "serverName": "gazeta-business.ru",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "grp-52-3-tgqk020c2eg",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test.fine-vault.test-cdn-kkk.com",
-            "port": 50443,
-            "users": [
-              {
-                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "ads.x5.ru",
-          "authority": "",
-          "mode": false
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ads.x5.ru",
-          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "shortId": "15aacc12",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -3201,18 +1701,18 @@
       "protocol": "blackhole"
     }
   ],
-  "remarks": "🇵🇱 Польша",
+  "remarks": "🇫🇮 LTE АВТО",
   "routing": {
     "domainMatcher": "hybrid",
     "domainStrategy": "AsIs",
     "balancers": [
       {
-        "tag": "bal_52",
+        "tag": "bal_28",
         "selector": [
-          "grp-52-1-uotgdoshoo4",
-          "grp-52-2-3o43m9n86r4"
+          "grp-28-1-1pkqp53eb3s",
+          "grp-28-2-4ccdrab2ngo"
         ],
-        "fallbackTag": "grp-52-3-tgqk020c2eg",
+        "fallbackTag": "grp-28-3-lm0eq0f32kc",
         "strategy": {
           "type": "leastLoad",
           "settings": {
@@ -3221,19 +1721,19 @@
             ],
             "costs": [
               {
-                "match": "grp-52-1-uotgdoshoo4",
+                "match": "grp-28-1-1pkqp53eb3s",
                 "regexp": false,
                 "value": 1
               },
               {
-                "match": "grp-52-2-3o43m9n86r4",
+                "match": "grp-28-2-4ccdrab2ngo",
                 "regexp": false,
                 "value": 10000000
               },
               {
-                "match": "grp-52-3-tgqk020c2eg",
+                "match": "grp-28-3-lm0eq0f32kc",
                 "regexp": false,
-                "value": 20000000
+                "value": 300000000
               }
             ],
             "expected": 1,
@@ -3323,13 +1823,13 @@
           "http"
         ],
         "network": "tcp,udp",
-        "balancerTag": "bal_52"
+        "balancerTag": "bal_28"
       }
     ]
   },
   "log": {
     "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788523084084_error_log.txt"
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524149346_error_log.txt"
   }
     },
     {
@@ -3486,7 +1986,7 @@
           "serverName": "gazeta-business.ru",
           "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "shortId": "50",
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -3502,7 +2002,4181 @@
   "remarks": "🇫🇮 LTE #2",
   "log": {
     "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
-    "error": "/data/user/0/com.happproxy/files/logs/error/1788523099417_error_log.txt"
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524161245_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "burstObservatory": {
+    "subjectSelector": [
+      "grp-50-1-29b25m7e6n8",
+      "grp-50-2-16eq9rt3idk",
+      "grp-50-3-1r99gahi4vo"
+    ],
+    "pingConfig": {
+      "destination": "http://ping.eu-fffast.com/generate_204",
+      "interval": "1m",
+      "sampling": 3,
+      "timeout": "5s"
+    }
+  },
+  "outbounds": [
+    {
+      "tag": "grp-50-1-29b25m7e6n8",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.gold-pond.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "tradingview.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-50-2-16eq9rt3idk",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "flow": "",
+                "encryption": "none"
+              }
+            ],
+            "address": "91.240.87.221"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "grpcSettings": {
+          "mode": false,
+          "authority": "",
+          "serviceName": "ads.x5.ru"
+        },
+        "realitySettings": {
+          "shortId": "c5023bb2",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "serverName": "gazeta-business.ru",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-50-3-1r99gahi4vo",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.fine-vault.test-cdn-kkk.com",
+            "port": 50443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "ads.x5.ru",
+          "authority": "",
+          "mode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.x5.ru",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "c5023bb2",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "Франция 🇫🇷",
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "AsIs",
+    "balancers": [
+      {
+        "tag": "bal_50",
+        "selector": [
+          "grp-50-1-29b25m7e6n8",
+          "grp-50-2-16eq9rt3idk"
+        ],
+        "fallbackTag": "grp-50-3-1r99gahi4vo",
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "4s"
+            ],
+            "costs": [
+              {
+                "match": "grp-50-1-29b25m7e6n8",
+                "regexp": false,
+                "value": 1
+              },
+              {
+                "match": "grp-50-2-16eq9rt3idk",
+                "regexp": false,
+                "value": 10000000
+              },
+              {
+                "match": "grp-50-3-1r99gahi4vo",
+                "regexp": false,
+                "value": 20000000
+              }
+            ],
+            "expected": 1,
+            "maxRTT": "6s"
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:gosuslugi.ru",
+          "domain:wildberries.ru",
+          "domain:ozon.ru",
+          "domain:ozon.com",
+          "domain:ozone.ru",
+          "full:go.yandex"
+        ]
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "network": "tcp,udp",
+        "balancerTag": "bal_50"
+      }
+    ]
+  },
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524175181_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "burstObservatory": {
+    "subjectSelector": [
+      "grp-44-1-odvglsqvaq8",
+      "grp-44-2-seokauu6egs",
+      "grp-44-3-rgk57uec31c"
+    ],
+    "pingConfig": {
+      "destination": "http://ping.eu-fffast.com/generate_204",
+      "interval": "1m",
+      "sampling": 3,
+      "timeout": "5s"
+    }
+  },
+  "outbounds": [
+    {
+      "tag": "grp-44-1-odvglsqvaq8",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.dawn-eagle.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "keycdn.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-44-2-seokauu6egs",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "flow": "",
+                "encryption": "none"
+              }
+            ],
+            "address": "91.240.87.221"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "grpcSettings": {
+          "mode": false,
+          "authority": "",
+          "serviceName": "ads.x5.ru"
+        },
+        "realitySettings": {
+          "shortId": "5ebf2a4d",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "serverName": "gazeta-business.ru",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-44-3-rgk57uec31c",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.fine-vault.test-cdn-kkk.com",
+            "port": 50443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "ads.x5.ru",
+          "authority": "",
+          "mode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.x5.ru",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "5ebf2a4d",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "Швеция 🇸🇪",
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "AsIs",
+    "balancers": [
+      {
+        "tag": "bal_44",
+        "selector": [
+          "grp-44-1-odvglsqvaq8",
+          "grp-44-2-seokauu6egs"
+        ],
+        "fallbackTag": "grp-44-3-rgk57uec31c",
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "4s"
+            ],
+            "costs": [
+              {
+                "match": "grp-44-1-odvglsqvaq8",
+                "regexp": false,
+                "value": 1
+              },
+              {
+                "match": "grp-44-2-seokauu6egs",
+                "regexp": false,
+                "value": 10000000
+              },
+              {
+                "match": "grp-44-3-rgk57uec31c",
+                "regexp": false,
+                "value": 20000000
+              }
+            ],
+            "expected": 1,
+            "maxRTT": "6s"
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:gosuslugi.ru",
+          "domain:wildberries.ru",
+          "domain:ozon.ru",
+          "domain:ozon.com",
+          "domain:ozone.ru",
+          "full:go.yandex"
+        ]
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "network": "tcp,udp",
+        "balancerTag": "bal_44"
+      }
+    ]
+  },
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524184526_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "burstObservatory": {
+    "subjectSelector": [
+      "grp-45-1-ikvamlaf8hc",
+      "grp-45-2-l1hifgnbuu",
+      "grp-45-3-q0janmnmee8"
+    ],
+    "pingConfig": {
+      "destination": "http://ping.eu-fffast.com/generate_204",
+      "interval": "1m",
+      "sampling": 3,
+      "timeout": "5s"
+    }
+  },
+  "outbounds": [
+    {
+      "tag": "grp-45-1-ikvamlaf8hc",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.elm-forge.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "keycdn.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-45-2-l1hifgnbuu",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "flow": "",
+                "encryption": "none"
+              }
+            ],
+            "address": "91.240.87.221"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "grpcSettings": {
+          "mode": false,
+          "authority": "",
+          "serviceName": "ads.x5.ru"
+        },
+        "realitySettings": {
+          "shortId": "cac0547f",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "serverName": "gazeta-business.ru",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-45-3-q0janmnmee8",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.fine-vault.test-cdn-kkk.com",
+            "port": 50443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "ads.x5.ru",
+          "authority": "",
+          "mode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.x5.ru",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "cac0547f",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "Финляндия 🇫🇮",
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "AsIs",
+    "balancers": [
+      {
+        "tag": "bal_45",
+        "selector": [
+          "grp-45-1-ikvamlaf8hc",
+          "grp-45-2-l1hifgnbuu"
+        ],
+        "fallbackTag": "grp-45-3-q0janmnmee8",
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "4s"
+            ],
+            "costs": [
+              {
+                "match": "grp-45-1-ikvamlaf8hc",
+                "regexp": false,
+                "value": 1
+              },
+              {
+                "match": "grp-45-2-l1hifgnbuu",
+                "regexp": false,
+                "value": 10000000
+              },
+              {
+                "match": "grp-45-3-q0janmnmee8",
+                "regexp": false,
+                "value": 20000000
+              }
+            ],
+            "expected": 1,
+            "maxRTT": "6s"
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:gosuslugi.ru",
+          "domain:wildberries.ru",
+          "domain:ozon.ru",
+          "domain:ozon.com",
+          "domain:ozone.ru",
+          "full:go.yandex"
+        ]
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "network": "tcp,udp",
+        "balancerTag": "bal_45"
+      }
+    ]
+  },
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524194861_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "burstObservatory": {
+    "subjectSelector": [
+      "grp-46-1-3vme9jqil6",
+      "grp-46-2-inji9d2q32",
+      "grp-46-3-belev8q2qno"
+    ],
+    "pingConfig": {
+      "destination": "http://ping.eu-fffast.com/generate_204",
+      "interval": "1m",
+      "sampling": 3,
+      "timeout": "5s"
+    }
+  },
+  "outbounds": [
+    {
+      "tag": "grp-46-1-3vme9jqil6",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.fine-maple.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "keycdn.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-46-2-inji9d2q32",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "flow": "",
+                "encryption": "none"
+              }
+            ],
+            "address": "91.240.87.221"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "grpcSettings": {
+          "mode": false,
+          "authority": "",
+          "serviceName": "ads.x5.ru"
+        },
+        "realitySettings": {
+          "shortId": "32be2c0a",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "serverName": "gazeta-business.ru",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-46-3-belev8q2qno",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.fine-vault.test-cdn-kkk.com",
+            "port": 50443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "ads.x5.ru",
+          "authority": "",
+          "mode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.x5.ru",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "32be2c0a",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "🇪🇪 Эстония",
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "AsIs",
+    "balancers": [
+      {
+        "tag": "bal_46",
+        "selector": [
+          "grp-46-1-3vme9jqil6",
+          "grp-46-2-inji9d2q32"
+        ],
+        "fallbackTag": "grp-46-3-belev8q2qno",
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "4s"
+            ],
+            "costs": [
+              {
+                "match": "grp-46-1-3vme9jqil6",
+                "regexp": false,
+                "value": 1
+              },
+              {
+                "match": "grp-46-2-inji9d2q32",
+                "regexp": false,
+                "value": 10000000
+              },
+              {
+                "match": "grp-46-3-belev8q2qno",
+                "regexp": false,
+                "value": 20000000
+              }
+            ],
+            "expected": 1,
+            "maxRTT": "6s"
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:gosuslugi.ru",
+          "domain:wildberries.ru",
+          "domain:ozon.ru",
+          "domain:ozon.com",
+          "domain:ozone.ru",
+          "full:go.yandex"
+        ]
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "network": "tcp,udp",
+        "balancerTag": "bal_46"
+      }
+    ]
+  },
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524204007_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "burstObservatory": {
+    "subjectSelector": [
+      "grp-52-1-jrh7gifbma8",
+      "grp-52-2-1o7cqdenhgk",
+      "grp-52-3-a1vrj096h48"
+    ],
+    "pingConfig": {
+      "destination": "http://ping.eu-fffast.com/generate_204",
+      "interval": "1m",
+      "sampling": 3,
+      "timeout": "5s"
+    }
+  },
+  "outbounds": [
+    {
+      "tag": "grp-52-1-jrh7gifbma8",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.bold-stone.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "tradingview.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-52-2-1o7cqdenhgk",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "flow": "",
+                "encryption": "none"
+              }
+            ],
+            "address": "91.240.87.221"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "grpcSettings": {
+          "mode": false,
+          "authority": "",
+          "serviceName": "ads.x5.ru"
+        },
+        "realitySettings": {
+          "shortId": "15aacc12",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "serverName": "gazeta-business.ru",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-52-3-a1vrj096h48",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.fine-vault.test-cdn-kkk.com",
+            "port": 50443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "ads.x5.ru",
+          "authority": "",
+          "mode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.x5.ru",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "15aacc12",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "🇵🇱 Польша",
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "AsIs",
+    "balancers": [
+      {
+        "tag": "bal_52",
+        "selector": [
+          "grp-52-1-jrh7gifbma8",
+          "grp-52-2-1o7cqdenhgk"
+        ],
+        "fallbackTag": "grp-52-3-a1vrj096h48",
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "4s"
+            ],
+            "costs": [
+              {
+                "match": "grp-52-1-jrh7gifbma8",
+                "regexp": false,
+                "value": 1
+              },
+              {
+                "match": "grp-52-2-1o7cqdenhgk",
+                "regexp": false,
+                "value": 10000000
+              },
+              {
+                "match": "grp-52-3-a1vrj096h48",
+                "regexp": false,
+                "value": 20000000
+              }
+            ],
+            "expected": 1,
+            "maxRTT": "6s"
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:gosuslugi.ru",
+          "domain:wildberries.ru",
+          "domain:ozon.ru",
+          "domain:ozon.com",
+          "domain:ozone.ru",
+          "full:go.yandex"
+        ]
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "network": "tcp,udp",
+        "balancerTag": "bal_52"
+      }
+    ]
+  },
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524213583_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "burstObservatory": {
+    "subjectSelector": [
+      "grp-56-1-9n98g9q7kts",
+      "grp-56-2-oil63cgenmg",
+      "grp-56-3-luhikjdn1qk"
+    ],
+    "pingConfig": {
+      "destination": "http://ping.eu-fffast.com/generate_204",
+      "interval": "1m",
+      "sampling": 3,
+      "timeout": "5s"
+    }
+  },
+  "outbounds": [
+    {
+      "tag": "grp-56-1-9n98g9q7kts",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.snow-maple.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "tradingview.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-56-2-oil63cgenmg",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "flow": "",
+                "encryption": "none"
+              }
+            ],
+            "address": "91.240.87.221"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "grpcSettings": {
+          "mode": false,
+          "authority": "",
+          "serviceName": "ads.x5.ru"
+        },
+        "realitySettings": {
+          "shortId": "046564ee",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "serverName": "gazeta-business.ru",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-56-3-luhikjdn1qk",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.fine-vault.test-cdn-kkk.com",
+            "port": 50443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "ads.x5.ru",
+          "authority": "",
+          "mode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.x5.ru",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "046564ee",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "Литва 🇱🇹",
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "AsIs",
+    "balancers": [
+      {
+        "tag": "bal_56",
+        "selector": [
+          "grp-56-1-9n98g9q7kts",
+          "grp-56-2-oil63cgenmg"
+        ],
+        "fallbackTag": "grp-56-3-luhikjdn1qk",
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "4s"
+            ],
+            "costs": [
+              {
+                "match": "grp-56-1-9n98g9q7kts",
+                "regexp": false,
+                "value": 1
+              },
+              {
+                "match": "grp-56-2-oil63cgenmg",
+                "regexp": false,
+                "value": 10000000
+              },
+              {
+                "match": "grp-56-3-luhikjdn1qk",
+                "regexp": false,
+                "value": 20000000
+              }
+            ],
+            "expected": 1,
+            "maxRTT": "6s"
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:gosuslugi.ru",
+          "domain:wildberries.ru",
+          "domain:ozon.ru",
+          "domain:ozon.com",
+          "domain:ozone.ru",
+          "full:go.yandex"
+        ]
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "network": "tcp,udp",
+        "balancerTag": "bal_56"
+      }
+    ]
+  },
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524223942_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "burstObservatory": {
+    "subjectSelector": [
+      "grp-57-1-71m5d9maa7k",
+      "grp-57-2-uarh5ing9e8",
+      "grp-57-3-8s5k26t0o14"
+    ],
+    "pingConfig": {
+      "destination": "http://ping.eu-fffast.com/generate_204",
+      "interval": "1m",
+      "sampling": 3,
+      "timeout": "5s"
+    }
+  },
+  "outbounds": [
+    {
+      "tag": "grp-57-1-71m5d9maa7k",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.blue-forge.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "tradingview.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-57-2-uarh5ing9e8",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "flow": "",
+                "encryption": "none"
+              }
+            ],
+            "address": "91.240.87.221"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "grpcSettings": {
+          "mode": false,
+          "authority": "",
+          "serviceName": "ads.x5.ru"
+        },
+        "realitySettings": {
+          "shortId": "eaf0e642",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "serverName": "gazeta-business.ru",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-57-3-8s5k26t0o14",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.fine-vault.test-cdn-kkk.com",
+            "port": 50443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "ads.x5.ru",
+          "authority": "",
+          "mode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.x5.ru",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "eaf0e642",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "Латвия 🇱🇻",
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "AsIs",
+    "balancers": [
+      {
+        "tag": "bal_57",
+        "selector": [
+          "grp-57-1-71m5d9maa7k",
+          "grp-57-2-uarh5ing9e8"
+        ],
+        "fallbackTag": "grp-57-3-8s5k26t0o14",
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "4s"
+            ],
+            "costs": [
+              {
+                "match": "grp-57-1-71m5d9maa7k",
+                "regexp": false,
+                "value": 1
+              },
+              {
+                "match": "grp-57-2-uarh5ing9e8",
+                "regexp": false,
+                "value": 10000000
+              },
+              {
+                "match": "grp-57-3-8s5k26t0o14",
+                "regexp": false,
+                "value": 20000000
+              }
+            ],
+            "expected": 1,
+            "maxRTT": "6s"
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:gosuslugi.ru",
+          "domain:wildberries.ru",
+          "domain:ozon.ru",
+          "domain:ozon.com",
+          "domain:ozone.ru",
+          "full:go.yandex"
+        ]
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "network": "tcp,udp",
+        "balancerTag": "bal_57"
+      }
+    ]
+  },
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524241820_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:dzen.ru",
+          "full:go.yandex"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "play.elm-forge.test-cdn-kkk.com",
+            "port": 8443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "tradingview.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "🇫🇮 🎮 Игровой 1",
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524253628_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:dzen.ru",
+          "full:go.yandex"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "hysteria",
+      "settings": {
+        "address": "test58.elm-forge.test-cdn-kkk.com",
+        "port": 30443,
+        "version": 2
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "80675306-81ad-455d-b78f-e4d54571f7fa"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hys.ffastdomain-eu.com",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h3"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "🇫🇮 🎮 Игровой 1 Hysteria",
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524265840_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:dzen.ru",
+          "full:go.yandex"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "play.fine-maple.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "tradingview.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "🇪🇪 🎮 Игровой 2",
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524276505_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:dzen.ru",
+          "full:go.yandex"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "hysteria",
+      "settings": {
+        "address": "test57.fine-maple.test-cdn-kkk.com",
+        "port": 30443,
+        "version": 2
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "80675306-81ad-455d-b78f-e4d54571f7fa"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hys.ffastdomain-eu.com",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h3"
+          ]
+        },
+        "finalmask": {
+          "quicParams": {
+            "debug": false,
+            "congestion": "bbr"
+          }
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "🇪🇪 🎮 Игровой 2 Hysteria",
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524286269_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:dzen.ru",
+          "full:go.yandex"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "play.dawn-eagle.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "tradingview.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "🇸🇪 🎮 Игровой 3",
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524298709_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:dzen.ru",
+          "full:go.yandex"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "hysteria",
+      "settings": {
+        "address": "test56.dawn-eagle.test-cdn-kkk.com",
+        "port": 30443,
+        "version": 2
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "80675306-81ad-455d-b78f-e4d54571f7fa"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hys.ffastdomain-eu.com",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h3"
+          ]
+        },
+        "finalmask": {
+          "quicParams": {
+            "debug": false,
+            "congestion": "bbr"
+          }
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "🇸🇪 🎮 Игровой 3 Hysteria",
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524309822_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "burstObservatory": {
+    "subjectSelector": [
+      "grp-49-1-5r6th9lcpm",
+      "grp-49-2-28tnf6jqm8g",
+      "grp-49-3-dgd718epgf"
+    ],
+    "pingConfig": {
+      "destination": "http://ping.eu-fffast.com/generate_204",
+      "interval": "1m",
+      "sampling": 3,
+      "timeout": "5s"
+    }
+  },
+  "outbounds": [
+    {
+      "tag": "grp-49-1-5r6th9lcpm",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.calm-peak.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "tradingview.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-49-2-28tnf6jqm8g",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "flow": "",
+                "encryption": "none"
+              }
+            ],
+            "address": "91.240.87.221"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "grpcSettings": {
+          "mode": false,
+          "authority": "",
+          "serviceName": "ads.x5.ru"
+        },
+        "realitySettings": {
+          "shortId": "826f6003",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "serverName": "gazeta-business.ru",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-49-3-dgd718epgf",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.fine-vault.test-cdn-kkk.com",
+            "port": 50443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "ads.x5.ru",
+          "authority": "",
+          "mode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.x5.ru",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "826f6003",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "Нидерланды 🇳🇱",
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "AsIs",
+    "balancers": [
+      {
+        "tag": "bal_49",
+        "selector": [
+          "grp-49-1-5r6th9lcpm",
+          "grp-49-2-28tnf6jqm8g"
+        ],
+        "fallbackTag": "grp-49-3-dgd718epgf",
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "4s"
+            ],
+            "costs": [
+              {
+                "match": "grp-49-1-5r6th9lcpm",
+                "regexp": false,
+                "value": 1
+              },
+              {
+                "match": "grp-49-2-28tnf6jqm8g",
+                "regexp": false,
+                "value": 10000000
+              },
+              {
+                "match": "grp-49-3-dgd718epgf",
+                "regexp": false,
+                "value": 20000000
+              }
+            ],
+            "expected": 1,
+            "maxRTT": "6s"
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:gosuslugi.ru",
+          "domain:wildberries.ru",
+          "domain:ozon.ru",
+          "domain:ozon.com",
+          "domain:ozone.ru",
+          "full:go.yandex"
+        ]
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "network": "tcp,udp",
+        "balancerTag": "bal_49"
+      }
+    ]
+  },
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524325463_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:dzen.ru",
+          "full:go.yandex"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.blue-robin.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "tr.eu-ffast.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "Турция 🇹🇷",
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524334514_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "burstObservatory": {
+    "subjectSelector": [
+      "grp-48-1-hh81icn5aj",
+      "grp-48-2-u75pj91a9ic"
+    ],
+    "pingConfig": {
+      "destination": "http://ping.eu-fffast.com/generate_204",
+      "interval": "1m",
+      "sampling": 3,
+      "timeout": "5s"
+    }
+  },
+  "outbounds": [
+    {
+      "tag": "grp-48-1-hh81icn5aj",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.mint-lance.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.google.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "grp-48-2-u75pj91a9ic",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "flow": "",
+                "encryption": "none"
+              }
+            ],
+            "address": "91.240.87.221"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "grpcSettings": {
+          "mode": false,
+          "authority": "",
+          "serviceName": "ads.x5.ru"
+        },
+        "realitySettings": {
+          "shortId": "ba25cc21",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "serverName": "gazeta-business.ru",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "США 🇺🇸",
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "AsIs",
+    "balancers": [
+      {
+        "tag": "bal_48",
+        "selector": [
+          "grp-48-1-hh81icn5aj"
+        ],
+        "fallbackTag": "grp-48-2-u75pj91a9ic",
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "4s"
+            ],
+            "costs": [
+              {
+                "match": "grp-48-1-hh81icn5aj",
+                "regexp": false,
+                "value": 1
+              },
+              {
+                "match": "grp-48-2-u75pj91a9ic",
+                "regexp": false,
+                "value": 10000000
+              }
+            ],
+            "expected": 1,
+            "maxRTT": "6s"
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:gosuslugi.ru",
+          "domain:wildberries.ru",
+          "domain:ozon.ru",
+          "domain:ozon.com",
+          "domain:ozone.ru",
+          "full:go.yandex"
+        ]
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "network": "tcp,udp",
+        "balancerTag": "bal_48"
+      }
+    ]
+  },
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524348145_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:dzen.ru",
+          "full:go.yandex"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.tall-otter.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "lon.eu-ffast.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "Великобритания 🇬🇧",
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524358123_error_log.txt"
+  }
+    },
+    {
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:oneme.ru",
+          "domain:max.ru",
+          "domain:sferum-dev.ru",
+          "domain:okcdn.ru",
+          "domain:vk-apps.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:vk.link",
+          "domain:vkontakte.ru",
+          "domain:vkontakte.com",
+          "domain:vk-cdn.net",
+          "domain:userapi.com",
+          "domain:vkuser.net",
+          "domain:vkuseraudio.com",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.com",
+          "domain:vkuservideo.net",
+          "domain:vkuserlive.com",
+          "domain:vkuserlive.net",
+          "domain:vkpay.io",
+          "domain:vkpay.com",
+          "domain:vkpay.app",
+          "domain:vkcs.cloud",
+          "domain:ok.ru",
+          "domain:odkl.ru",
+          "domain:tamtam.chat",
+          "domain:mycdn.me",
+          "domain:ok.me",
+          "domain:apiok.ru",
+          "domain:apptracer.ru",
+          "domain:vkvideo.ru",
+          "domain:vk.company",
+          "domain:mail.ru",
+          "domain:tech-mail.ru",
+          "domain:vmailru.net",
+          "domain:smailru.net",
+          "domain:appsmail.ru",
+          "domain:cxhub.ru",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:vkplay.ru",
+          "domain:my.games",
+          "domain:algoritmika.org",
+          "domain:yaklass.ru",
+          "domain:umschool.net",
+          "domain:code-class.ru",
+          "domain:summerstage.ru",
+          "domain:vk-stadium.ru",
+          "domain:tetrika-school.ru",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:dzen.ru",
+          "full:go.yandex"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.soft-blade.test-cdn-kkk.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "80675306-81ad-455d-b78f-e4d54571f7fa",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "tradingview.com",
+          "publicKey": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+          "shortId": "50",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "Казахстан 🇰🇿",
+  "log": {
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1788524368225_error_log.txt"
   }
     }
 ]
