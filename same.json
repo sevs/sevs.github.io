@@ -5911,5 +5911,5 @@
     "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
     "error": "/data/user/0/com.happproxy/files/logs/error/1788863659716_error_log.txt"
   }
-    }
-]
+    },
+];
